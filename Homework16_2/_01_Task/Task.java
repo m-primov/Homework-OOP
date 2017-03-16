@@ -14,12 +14,6 @@ public class Task {
 		}
 	}
 	
-	public void setWorkingHours(int workingHours) {
-		if (workingHours > 0) {
-			Task.workingHours = workingHours;
-		}
-	}
-	
 	public int getWorkingHours() {
 		return Task.workingHours;
 	}
